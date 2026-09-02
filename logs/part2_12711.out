@@ -1,0 +1,8 @@
+
+--- Testing with Scale Factor: 1.0 ---
+Average Error (Float16 vs Float32):  0.0039
+Average Error (Bfloat16 vs Float32): 0.0337
+
+--- Testing with Scale Factor: 100.0 ---
+Average Error (Float16 vs Float32):  inf
+Average Error (Bfloat16 vs Float32): 355.9632

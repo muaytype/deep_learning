@@ -1,0 +1,5 @@
+--- Part III: Hardware & Precision Race ---
+GPU Execution (torch.float32): 0.0051 seconds
+GPU Execution (torch.float16): 0.0028 seconds
+GPU Execution (torch.bfloat16): 0.0028 seconds
+CPU Execution (torch.float32): 0.7340 seconds

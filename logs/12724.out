@@ -1,0 +1,4 @@
+Initializing matrices of shape (20000, 20000)...
+
+Float32 Memory Allocated: 1.4901 GB
+Float16 Memory Allocated: 0.7451 GB
