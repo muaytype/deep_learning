@@ -2,7 +2,7 @@
 #SBATCH --job-name=lab2_part1
 #SBATCH --output=logs/%j.out             # Routes sandard prints to a log file
 #SBATCH --error=logs/%j.err              # Routes crashes to an error file
-#SBATCH --partition=gpu4090              # Requests the specific GPU partition
+#SBATCH --partition=gpu3080              # Requests the specific GPU partition
 #SBATCH --cpus-per-task=4                # Allocates 4 CPU cores
 #SBATCH --mem=8G                         # Allocates 8GB of system RAM
 #SBATCH --gres=gpu:1                     # Requests exactly 1 physical GPU

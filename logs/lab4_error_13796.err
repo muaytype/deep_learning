@@ -1,0 +1,4 @@
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/src/lab4_part1_1.py", line 4
+    df = pd.read_csv('../data/UTF-8_insurance_charges.csv'
+                    ^
+SyntaxError: '(' was never closed

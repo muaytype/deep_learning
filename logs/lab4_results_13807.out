@@ -1,0 +1,39 @@
+--- Learning Rate Experiment ---
+Learning Rate 0.1: Final Loss = 0.4447
+Learning Rate 0.01: Final Loss = 0.4508
+Learning Rate 0.001: Final Loss = 0.4891
+Final Scaled Weight Vector (w):
+ [[-9.10937992e-19]
+ [ 2.30264073e-02]
+ [-1.11875745e-02]
+ [ 2.11165009e-02]]
+--- Training Complete ---
+Optimal Weights:
+ [[-3.20488081e-17]
+ [ 1.49071496e-01]
+ [-6.94363981e-02]
+ [ 1.34130121e-01]]
+Predicted Charges:
+ [[10680.17239653]
+ [ 9744.03244298]
+ [11598.09902647]
+ [14758.12485506]]
+--- Classification Training ---
+Final Classification Loss after 100 steps: 0.0489
+Final Weight Vector (w_iris):
+ [[ 0.14654648]
+ [ 0.65854853]
+ [-0.89325537]
+ [ 1.12763237]
+ [ 1.13887932]]
+--- Final Exam: Test Evaluation ---
+True Positives (TP): 13
+True Negatives (TN): 17
+False Positives (FP): 0
+False Negatives (FN): 0
+Accuracy: 100.00%
+
+--- Mini-Batch Size Experiment ---
+Batch Size 4: Final Loss = 0.0036
+Batch Size 16: Final Loss = 0.0112
+Batch Size 64: Final Loss = 0.0257
