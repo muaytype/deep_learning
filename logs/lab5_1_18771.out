@@ -1,0 +1,17 @@
+Loading and preprocessing dataset...
+Initializing network architecture...
+Initiating training loop over 1000 epochs...
+Epoch 0 | BCE Loss: 0.6932
+Epoch 100 | BCE Loss: 0.6931
+Epoch 200 | BCE Loss: 0.6926
+Epoch 300 | BCE Loss: 0.6872
+Epoch 400 | BCE Loss: 0.6634
+Epoch 500 | BCE Loss: 0.6443
+Epoch 600 | BCE Loss: 0.6364
+Epoch 700 | BCE Loss: 0.6321
+Epoch 800 | BCE Loss: 0.6285
+Epoch 900 | BCE Loss: 0.6248
+
+Training complete. Loss curve saved to 'lab5_baseline_loss.png'.
+Evaluating model on test data...
+Final Test Set Accuracy: 66.51%

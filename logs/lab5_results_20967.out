@@ -1,0 +1,15 @@
+--- Deep Neural Network Training ---
+Epoch    0 | BCE Loss: 0.6931
+Epoch  100 | BCE Loss: 0.6931
+Epoch  200 | BCE Loss: 0.6931
+Epoch  300 | BCE Loss: 0.6931
+Epoch  400 | BCE Loss: 0.6931
+Epoch  500 | BCE Loss: 0.6931
+Epoch  600 | BCE Loss: 0.6931
+Epoch  700 | BCE Loss: 0.6930
+Epoch  800 | BCE Loss: 0.6930
+Epoch  900 | BCE Loss: 0.6930
+Training Complete. No NaNs encountered.
+Saved lab5_baseline_loss_history.png to cluster storage.
+
+Final Test Accuracy: 52.49%
