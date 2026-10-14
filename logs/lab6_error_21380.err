@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/src/lab6/lab6-resnet.py", line 17, in <module>
+    realwaste_dataset = datasets.ImageFolder(root=dataset_path, transform=transformation)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/torchvision/datasets/folder.py", line 328, in __init__
+    super().__init__(
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/torchvision/datasets/folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/torchvision/datasets/folder.py", line 234, in find_classes
+    return find_classes(directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/torchvision/datasets/folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+                                             ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'realwaste-main/RealWaste/'

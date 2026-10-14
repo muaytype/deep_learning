@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/src/lab7/lab7.py", line 78, in <module>
+    config = toml.load(config_path)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/toml/decoder.py", line 134, in load
+    return loads(ffile.read(), _dict, decoder)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/slurm/home/68070701603@cpe.kmutt.ac.th/deep_learning/env_dl/lib/python3.12/site-packages/toml/decoder.py", line 340, in loads
+    raise TomlDecodeError("Unbalanced quotes", original, i)
+toml.decoder.TomlDecodeError: Unbalanced quotes (line 6 column 84 char 138)
